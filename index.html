@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+
+
+    <!-- Librería Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <title>E4 El Electronic Entertainment Expo</title>
+
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="96">
+
+    <!-- HEADER-->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logos/e4-logo.png" alt="E4">E4 - El Electronicc Entertainment Expo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">El evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ponentes">Ponentes estelares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar-fecha">Lugar y fechas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inscribe">Inscrie tu equipo!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#modal_compra" data-toggle="modal"><strong> Comprar Entradas</strong></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--FIN DE HEADER -->
+
+    <!--SECCION PRINCIPAL DE LA PÁGINA -->
+
+    <main id="main">
+        <div id="carrusel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/1%20(1).jpg" class="d-block w-100" alt="Evento1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/1%20(2).jpg" class="d-block w-100" alt="Evento2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/1%20(3).jpg" class="d-block w-100" alt="Evento3">
+                </div>
+
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text center text-right mt-4">
+                                <h2>E4 - El Electronic Entertainment Expo</h2>
+                                <br>
+                                <p class="d-none d-md-block">Del 25 a 30 de Noviembre Cancún será sede del evento de videojuegos más grande del mundo. E4 concentrara a la élite de jugadores y aficionados mas exxlusiva.
+                                    Porque 4 es mas que 3, no dejes de asstir al evento. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ad qui voluptas non corrupti officia dignissimos animi nemo asperiores accusantium, quasi voluptates aperiam fugiat a minus libero quibusdam hic, fuga!</p>
+                                <a href="#" class="btn btn-outline-light mt-2" role="button">Inscribir equipo</a>
+                                <a href="#modal_compra" data-toggle="modal" class="btn btn-success mt-2" type="button">Comprar Entradas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE EVENTO -->
+
+        <!--PONENTES-->
+        <section id="ponentes" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Conoce a nuestris ponentes especiales</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/Shigeru%20Miyamoto.jpg" class="card-img-top" alt="Shigeru Miyamoto">
+                            <div class="card-body">
+                                <h5 class="card-title">Shigeru Miyamoto</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">25 de Noviembre</span>
+                                    <span class="badge badge-warning">4:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/Shigeru_Miyamoto" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/Koji%20Kondo.jpg" class="card-img-top" alt="Kuji Kondo">
+                            <div class="card-body">
+                                <h5 class="card-title">Kuji Kondo</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">26 de Noviembre</span>
+                                    <span class="badge badge-warning">6:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/Koji_Kondo" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/Phil%20Spencer.jpg" class="card-img-top" alt="Phil Spencer">
+                            <div class="card-body">
+                                <h5 class="card-title">Phil Spencer</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">27 de Noviembre</span>
+                                    <span class="badge badge-warning">2:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/Phil_Spencer_(business_executive)" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/Mark_Cerny.jpg" class="card-img-top" alt="Mark Cerny">
+                            <div class="card-body">
+                                <h5 class="card-title">Mark Cerny</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">28 de Noviembre</span>
+                                    <span class="badge badge-warning">8:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/Mark_Cerny" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/toru-iwatani.jpg" class="card-img-top" alt="Toru Iwatani">
+                            <div class="card-body">
+                                <h5 class="card-title">Toru Iwatani</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">29 de Noviembre</span>
+                                    <span class="badge badge-warning">8:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/Toru_Iwatani" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="assets/img/Leonardo%20MKLeo%20P%C3%A9rez.png" class="card-img-top" alt="Leonardo Pérez">
+                            <div class="card-body">
+                                <h5 class="card-title">Leonardo "MKLeo" Pérez</h5>
+                                <div class="bagdes pb-3">
+                                    <span class="badge badge-success">30 de Noviembre</span>
+                                    <span class="badge badge-warning">3:00 PM</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://en.wikipedia.org/wiki/MkLeo" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--FIN DE SECCION DE PONENTES-->
+
+
+        <!--LUGAR Y FECHAS-->
+        <section id="lugar-fecha">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 pl-0 pr-0">
+                        <img src="assets/img/cancun.webp">
+                    </div>
+                    <div class="col-12 col-md-6 pt-3 pb-3">
+                        <h3>Cancún, Quintana Roo, México.</h3>
+                        <p>Del 25 al 30 de noviembre del 2020, las hermosas playas de Cancún serán sede de Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat exercitationem amet, consequuntur delectus, molestiae reiciendis ratione, vel vitae voluptatum, fuga eligendi in incidunt dolorum. Nulla corrupti, accusantium a odit magnam.</p>
+
+                        <a class="btn btn-success" href="https://www.visitmexico.com/en/quintana-roo/cancun" target="_blank">Conoce más de este lugar...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FIN DE LUGAR Y FECHAS-->
+        <!--Incribe-->
+        <section id="inscribe" class="pt-2 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h4 class="text-uppercase">Inscribe a tu equipo</h4>
+                        <h4 class="text-uppercase">Para las mejores competencias internacionales.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-8 offset-md-2 pt-2 text-center">
+                        Inscribe a tu equipo para participar en las diferentes competencias internacionales,
+                        que pueden ser individuales o en <abbr title="Máximo 5 participantes"> equipos.</abbr>
+                    </div>
+                </div>
+                <div class="row pt-4 pb-4">
+                    <div class="col col-md-8 offset-md-2 pt-2">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                    <input type="text" class="form-control" placeholder="Nombre del equipo" required>
+                                </div>
+                                <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                    <input type="text" class="form-control" placeholder="Nombre de capitán" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-12 pb-1 pt-1">
+                                    <input type="email" class="form-control" placeholder="Correo Electronico del capitan" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <textarea name="propuesta" class="form-control" placeholder="Describe a tu equipo y en que tipo de videojuegos son competitivos," rows="15"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-success btn-block">ENVIAR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FIN DE SECCION Incribe-->
+
+    </main>
+
+    <!--FIN DE LA SECCION PRINCIPAL-->
+
+
+    <!-- FOOTER-->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-md">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">¿Quienes somos?</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Mapa del sitio</a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col pt-4">
+                    <p>Siguenos en nuestras redes sociales</p>
+                </div>
+
+            </div>
+
+            <div class="row text-center">
+                <div class="col pb-1 pt-4">
+                    <a href="#"><i data-toggle="tooltip" data-placement="left" title="Facebook" class="fab fa-facebook-square fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Twitter" class="fab fa-twitter-square fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Instagram" class="fab fa-instagram fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="right" title="Youtube" class="fab fa-youtube fa-2x pr-3 pl-3"></i></a>
+                </div>
+            </div>
+
+            <div class="row text-center pb-2 pt-2">
+                <div class="col">
+                    <img src="assets/logos/logotec.png" alt="ITSJ" width="80px" height="80px">
+                </div>
+            </div>
+            <div class="row text-center pb-2 pt-2">
+                <div class="col">
+                    <p>&copy 2020 - Tecnologico Nacional de México, Campus Jerez - Reservados a todos los derechos.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--FIN DE FOOTER-->
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_compra" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Adquirir Entradas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Completa los siguientes datos para la compra de rus entradas:
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                <input type="text" class="form-control" placeholder="Nombre(s)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <input type="text" class="form-control" placeholder="Apellido(s)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <input type="email" class="form-control" placeholder="Correo Electronico" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <label for="select1">
+                                    Número de entradas:
+                                </label>
+                                <select id="select1" class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <label for="select2">
+                                    Forma de pago:
+                                </label>
+                                <select id="select2" class="form-control">
+                                    <option>Tarjeta de Crédito / débito</option>
+                                    <option>Paypal</option>
+                                    <option>Oxxo</option>
+                                    <option>Depósito Bancario</option>
+                                    <option>Transferencia Electrónica</option>
+                                    <option>Efectivo</option>
+                                    <option>Riñón</option>
+                                    <option>Cuerpo</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Proceder a la compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        < script >
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+
+    </script>
+
+
+</body>
+
+</html>
